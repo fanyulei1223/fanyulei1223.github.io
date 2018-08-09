@@ -91,7 +91,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="随笔2018年8月9日16:13:33">
 <meta property="og:url" content="http://fanyulei1223.github.io/2018/08/09/18-08-09/index.html">
-<meta property="og:site_name" content="MyBlog">
+<meta property="og:site_name" content="Blog">
 <meta property="og:description" content="摘要: 随笔">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2018-08-09T08:22:34.533Z">
@@ -133,7 +133,7 @@
 
 
 
-  <title>随笔2018年8月9日16:13:33 | MyBlog</title>
+  <title>随笔2018年8月9日16:13:33 | Blog</title>
   
 
 
@@ -163,7 +163,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">MyBlog</span>
+        <span class="site-title">Blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -283,7 +283,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="MyBlog">
+      <meta itemprop="name" content="Blog">
     </span>
 
     
@@ -523,7 +523,6 @@
           
 
           
-
         </div>
       </section>
 
@@ -557,6 +556,35 @@
   <div class="powered-by"></div>
   <span class="post-count">博客全站共366字</span>
 </div>
+
+
+<div id="days"></div>
+</script>
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("08/08/2018 08:08:08");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="已存活"+daysold+"天"+hrsold+"时"+minsold+"分"+seconds+"秒";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
 
         
 
