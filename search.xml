@@ -25,9 +25,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[第一篇]]></title>
+    <title><![CDATA[第一篇——hexo的一些东西]]></title>
     <url>%2F2018%2F08%2F07%2Fxin%2F</url>
-    <content type="text"><![CDATA[摘要: 第一篇blog正文:发布到Github-输入命令：hexo d -g 或者 hexo clean &amp;&amp; hexo g &amp;&amp; hexo d 本地运行Blog：hexo s -g -》浏览器输入 localhost:4000 写文章：hexo new “hello” （创建名为hello的文章） https://blog.csdn.net/jzooo/article/details/46781805]]></content>
+    <content type="text"><![CDATA[摘要: 第一篇blog正文:发布到Github-输入命令：hexo d -g 或者 hexo clean &amp;&amp; hexo g &amp;&amp; hexo d 本地运行Blog：hexo s -g -》浏览器输入 localhost:4000 写文章：hexo new “hello” （创建名为hello的文章） https://blog.csdn.net/jzooo/article/details/46781805 打开next主题的_config.yml，想要应用哪个主题，就把下面四个其中一个的false改为true canvas_nest: true three_waves: false canvas_lines: false canvas_sphere: false]]></content>
       <categories>
         <category>日志</category>
         <category>文档</category>
